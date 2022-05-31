@@ -1,11 +1,11 @@
-package br.com.triersistemas.patolino.exercicioum;
+package br.com.triersistemas.patolino;
 
 import java.util.List;
 import java.util.SplittableRandom;
 
 public abstract class Pessoa {
     private String nome;
-    protected String documento;
+    protected String documento = "";
 
 
     public Pessoa() {

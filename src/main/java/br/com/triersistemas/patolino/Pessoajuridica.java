@@ -1,4 +1,4 @@
-package br.com.triersistemas.patolino.exercicioum;
+package br.com.triersistemas.patolino;
 
 import java.util.List;
 import java.util.SplittableRandom;
@@ -18,5 +18,5 @@ public abstract class Pessoajuridica extends Pessoa{
         return documento;
     }
 
-    public abstract List<Produto> getProdutos();
+    public abstract List<String> getProdutos();
 }

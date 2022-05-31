@@ -1,6 +1,4 @@
-package br.com.triersistemas.patolino.exercicioum;
-
-import java.util.SplittableRandom;
+package br.com.triersistemas.patolino;
 
 public class Farmaceutico extends Pessoafisica{
 
@@ -15,4 +13,5 @@ public class Farmaceutico extends Pessoafisica{
     public Produto getOfertaDia() {
         return ofertaDia;
     }
+
 }
